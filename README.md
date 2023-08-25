@@ -2,6 +2,18 @@
 
 > This is the bug reproduction for [[Component] [select] select has inline style let custom sass setting invalid #14038](https://github.com/element-plus/element-plus/issues/14038).
 
+## Environment
+
+PNPM 8 <br>
+Node 16.19
+
+## Setup
+
+```bash
+pnpm i
+pnpm run dev
+```
+
 # Vue 3 + TypeScript + Vite
 
 This template should help get you started developing with Vue 3 and TypeScript in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
