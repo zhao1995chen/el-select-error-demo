@@ -4,14 +4,14 @@
 
 ## Environment
 
-PNPM 8 <br>
+NPM 8 <br>
 Node 16.19
 
 ## Setup
 
 ```bash
-pnpm i
-pnpm run dev
+npm install
+npm run dev
 ```
 
 ## Live Demo
