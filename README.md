@@ -1,6 +1,19 @@
 # el-select-error-demo
 
-> This is the bug reproduction for [[Component] [select] select has inline style let custom sass setting invalid #14038](https://github.com/element-plus/element-plus/issues/14038).
+> This is the bug reproduction for element-plus bug issue [#14038](https://github.com/element-plus/element-plus/issues/14038).
+
+## Problem
+
+### < v2.3.4
+
+After the first change is workable, other custom settings will be overwritten by the first inline style but not the custom setting.
+
+### >= v2.3.4
+
+Each `el-select` will be overwritten by themselves inline style but not the custom setting.
+
+> After tracing, found that the problem was reported [#11962](https://github.com/element-plus/element-plus/issues/11962) five months ago, appeared until v2.3.3, and was fixed on v2.3.4([#11973](https://github.com/element-plus/element-plus/pull/11973)).
+> This is noted [here](https://github.com/element-plus/element-plus/issues/14038#issuecomment-1694325538).
 
 ## Environment
 
