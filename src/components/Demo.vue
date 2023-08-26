@@ -1,14 +1,12 @@
 <script setup lang="ts">
-import { ref, version as vueVersion, reactive } from "vue";
-import { version as epVersion } from "element-plus";
-import { ElementPlus } from "@element-plus/icons-vue";
+import { ref, reactive } from 'vue'
 
-type Size = "small" | "default" | "large";
-const size = ref<Size>("default");
+type Size = 'small' | 'default' | 'large'
+const size = ref<Size>('default')
 
 const form = reactive({
-  region: "",
-});
+  region: '',
+})
 
 /** The following is the setting I put in src/assets/index.scss
 @use 'sass:map';
@@ -25,11 +23,6 @@ const form = reactive({
 </script>
 
 <template>
-  <h1>
-    <el-icon color="var(--el-color-primary)"><ElementPlus /></el-icon>
-    Element Plus {{ epVersion }} + Vue {{ vueVersion }}
-  </h1>
-  <el-divider></el-divider>
   <p>COMPONENT OPTIONS</p>
   <el-form label-width="80px">
     <el-form-item label="Size" class="flex items-center">

@@ -1,9 +1,22 @@
 <script setup lang="ts">
-import Demo from "./components/Demo.vue";
+import { ref, version as vueVersion } from 'vue'
+import { version as epVersion } from 'element-plus'
+import { ElementPlus } from '@element-plus/icons-vue'
+import Demo from './components/Demo.vue'
+import Demo2 from './components/Demo2.vue'
+
+const activeName = ref('demo')
 </script>
 
 <template>
-  <Demo />
+  <h1>
+    <el-icon color="var(--el-color-primary)"><ElementPlus /></el-icon>
+    Element Plus {{ epVersion }} + Vue {{ vueVersion }}
+  </h1>
+  <el-tabs v-model="activeName">
+    <el-tab-pane label="Demo #14038" name="demo"><Demo /></el-tab-pane>
+    <el-tab-pane label="Demo #13917" name="demo2"><Demo2 /></el-tab-pane>
+  </el-tabs>
 </template>
 
 <style scoped>
