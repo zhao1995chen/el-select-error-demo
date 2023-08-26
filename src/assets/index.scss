@@ -3,8 +3,8 @@
 
 @forward 'element-plus/theme-chalk/src/common/var.scss' with (
   $common-component-size: (
-    'large': 50px,
-    'default': 30px,
-    'small': 10px,
+    'large': 300px,
+    'default': 200px,
+    'small': 100px,
   ),
 );
