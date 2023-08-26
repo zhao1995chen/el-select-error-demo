@@ -57,6 +57,6 @@ Each `el-select` will be overwritten by themselves inline style but not the cust
 - Select `default` option, `el-select <input>` height to be custom size `198px`, not set by inline style.
 - Select `small` option, `el-select <input>` height to be custom size `98px`, not set by inline style.
 
-## `Demo #12609`
+## `Demo #13917`
 
-> This is the solution for element-plus bug issue [#12609](https://github.com/element-plus/element-plus/issues/12609).
+> This is the solution for element-plus bug issue [#13917](https://github.com/element-plus/element-plus/issues/13917).
