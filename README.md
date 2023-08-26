@@ -1,4 +1,4 @@
-# element-plus-error-and-fix-demo
+# element-plus-error-and-solution-demo
 
 ## Environment
 
